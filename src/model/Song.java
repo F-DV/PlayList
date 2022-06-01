@@ -35,6 +35,34 @@ public class Song {
     public Song() {
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public int getIdentity() {
+        return identity;
+    }
+
+    public int getDate() {
+        return date;
+    }
+
+    public String getGnre() {
+        return gnre;
+    }
+
+    public float getDuration() {
+        return duration;
+    }
+
+    public String getFrontPage() {
+        return frontPage;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
     @Override
     public String toString() {
         return "Song{" +
